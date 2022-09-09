@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: rgb(234, 68, 68);
+}
+
+.section {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section__form {
+    background: rgb(245, 239, 239);
+    width: 100%;
+    height: 525px;
+    align-items: center;
+}
+
+.container__form {
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.select__form {
+    width: 130px;
+    height: 30px;
+}
+
+.checkbox {
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.btn {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.btn:hover {
+    background: rgb(81, 81, 237);
+    color: rgb(255, 255, 255);
+}
+
+.btn2 {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.btn2:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.checkbox__div {
+    width: 150px;
+}
+
+.container__checkbox {
+    display: flex;
+    margin: 10px;
+}
+
+.btn {
+    width: 90px;
+    height: 90px;
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.btn2 {
+    width: 90px;
+    height: 90px;
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.add1 {
+    margin-left: 10px;
+}
+
+.add2 {
+    margin-left: 100px;
+}
+
+h4 {
+    margin-top: 50px;
+}
+
+.container__chek {
+    position: absolute;
+    margin-left: 700px;
+    width: 5px;
+    height: 525px;
+    background: rgb(66, 37, 37);
+    margin-top: -499px;
+}
+
+.container__push {
+    position: absolute;
+    margin-left: 750px;
+    width: 105px;
+    height: 325px;
+    margin-top: -450px;
+}
+
+.btn__buyurtma {
+    border: 1px solid green;
+    margin-top: 30px;
+    background: green;
+    width: 200px;
+    height: 60px;
+}
+
+.btn__buyurtma:hover {
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+}
+
+.btn__buyurtma:active {
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(234, 68, 68);
+    text-align: center;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+}
+
+.my-message {
+    width: 300px;
+    height: 110px;
+    background-color: #F08080;
+    text-align: center;
+    border: 2px groove black;
+}
+
+.my-message-title {
+    height: 20px;
+    font-size: 120%;
+    background-color: red;
+}
+
+.my-message-body {
+    padding: 5px;
+    height: 50px;
+}
+
+
+.z-index2 {
+    width: 1000px;
+    height: 500px;
+    display: none;
+    background: rgb(106, 255, 0);
+    color: rgb(255, 0, 0);
+    animation: removeChild 2s ease;
+    -webkit-animation: removeChild 2s ease;
+    z-index: 123;
+    margin-top: -500px;
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 100px;
+}
+
+@keyframes removeChild {
+    0% {
+        display: block;
+        width: 1000px;
+        height: 500px;
+        background: rgb(106, 255, 0);
+        color: rgb(255, 0, 0);
+        margin-top: -1000px;
+        z-index: 123;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    100% {
+        display: block;
+        width: 1000px;
+        height: 500px;
+        background: rgb(106, 255, 0);
+        color: rgb(255, 0, 0);
+        margin-top: -500px;
+        margin-left: 100px;
+        z-index: 123;
+        padding-top: 100px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+.indexlar {
+    z-index: 111111;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+@media only screen and (max-width:776px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        width: 100%;
+    }
+    
+    .header {
+        width: 100%;
+        height: 50px;
+        background: rgb(234, 68, 68);
+    }
+    
+    .section {
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .section__form {
+        background: rgb(245, 239, 239);
+        width: 100%;
+        height: 525px;
+        align-items: center;
+    }
+    
+    .container__form {
+        margin-left: 50px;
+        padding-top: 50px;
+    }
+    
+    .select__form {
+        width: 130px;
+        height: 30px;
+    }
+    
+    .checkbox {
+        width: 300px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
+    .btn {
+        background: rgb(255, 255, 255);
+        color: black;
+    }
+    
+    .btn:hover {
+        background: rgb(81, 81, 237);
+        color: rgb(255, 255, 255);
+    }
+    
+    .btn2 {
+        background: rgb(255, 255, 255);
+        color: black;
+    }
+    
+    .btn2:hover {
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+    
+    .checkbox__div {
+        width: 150px;
+    }
+    
+    .container__checkbox {
+        display: flex;
+        margin: 10px;
+    }
+    
+    .btn {
+        width: 90px;
+        height: 90px;
+        background: rgb(255, 255, 255);
+        color: black;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .btn2 {
+        width: 90px;
+        height: 90px;
+        background: rgb(255, 255, 255);
+        color: black;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    
+    .add1 {
+        margin-left: 10px;
+    }
+    
+    .add2 {
+        margin-left: 100px;
+    }
+    
+    h4 {
+        margin-top: 50px;
+    }
+    
+    .container__chek {
+        position: absolute;
+        margin-left: -10px;
+        width: 100%;
+        height: 5px;
+        background: rgb(66, 37, 37);
+        margin-top: 34px;
+    }
+    
+    .container__push {
+        margin-left: 0px;
+        width: 105px;
+        height: 325px;
+        margin-top: 50px;
+        margin-left: 130px;
+    }
+    
+    .btn__buyurtma {
+        border: 1px solid green;
+        margin-top: 30px;
+        background: green;
+        width: 200px;
+        height: 60px;
+    }
+    
+    .btn__buyurtma:hover {
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 30px;
+        background: rgb(255, 255, 255);
+        width: 200px;
+        height: 60px;
+    }
+    
+    .btn__buyurtma:active {
+        border: 1px solid rgb(0, 0, 0);
+        margin-top: 30px;
+        background: rgb(255, 255, 255);
+        width: 200px;
+        height: 60px;
+    }
+    
+    footer {
+        width: 100%;
+        height: 50px;
+        background: rgb(234, 68, 68);
+        text-align: center;
+        align-items: center;
+        margin-top: 300px;
+    }
+    
+    a {
+        color: #fff;
+    }
+    
+    .my-message {
+        width: 300px;
+        height: 110px;
+        background-color: #F08080;
+        text-align: center;
+        border: 2px groove black;
+    }
+    
+    .my-message-title {
+        height: 20px;
+        font-size: 120%;
+        background-color: red;
+    }
+    
+    .my-message-body {
+        padding: 5px;
+        height: 50px;
+    }
+    
+    
+    .z-index2 {
+        width: 1000px;
+        height: 500px;
+        display: none;
+        background: rgb(106, 255, 0);
+        color: rgb(255, 0, 0);
+        animation: removeChild 2s ease;
+        -webkit-animation: removeChild 2s ease;
+        z-index: 123;
+        margin-top: -500px;
+        margin-left: 100px;
+        align-items: center;
+        text-align: center;
+    
+        padding-top: 100px;
+    }
+    
+    @keyframes removeChild {
+        0% {
+            display: block;
+            width: 1000px;
+            height: 500px;
+            background: rgb(106, 255, 0);
+            color: rgb(255, 0, 0);
+            margin-top: -1000px;
+            z-index: 123;
+            padding-top: 100px;
+        }
+    
+        100% {
+            display: block;
+            width: 1000px;
+            height: 500px;
+            background: rgb(106, 255, 0);
+            color: rgb(255, 0, 0);
+            margin-top: 0px;
+            margin-left: -250px;
+            z-index: 123;
+            padding-top: 00px;
+        }
+    }
+    
+    
+    .indexlar {
+        z-index: 111111;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+}
